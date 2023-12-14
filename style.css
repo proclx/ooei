@@ -1,0 +1,193 @@
+* {
+    font-family: Arial ;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+main{
+  margin-bottom: 150px;
+}
+
+nav,
+.log,
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+  
+nav {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+}
+  
+.mobile-nav {
+    display: none;
+}
+  
+.logos-section {
+    display: flex;
+}
+  
+.menu-items li,
+.log li,
+.menu-items a {
+    font-size: 18px;
+    color: gray;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.log li {
+    border: 1px solid gray;
+    padding: 7px 21px;
+    border-radius: 4px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.desktop-img {
+    display: block;
+}
+  
+main h1 {
+    font-size: 60px;
+}
+  
+main p {
+    font-size: 15px;
+    width: 18rem;
+    color: gray;
+}
+    
+main button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#text-side img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+#text-side p {
+    font-size: large;
+}
+  
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+  * {
+    font-family: Arial ;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+main{
+  margin-bottom: 150px;
+}
+
+nav,
+.log,
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+  
+nav {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    justify-content: space-between;
+}
+  
+.mobile-nav {
+    display: none;
+}
+  
+.logos-section {
+    display: flex;
+}
+  
+.menu-items li,
+.log li,
+.menu-items a {
+    font-size: 18px;
+    color: gray;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.log li {
+    border: 1px solid gray;
+    padding: 7px 21px;
+    border-radius: 4px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.desktop-img {
+    display: block;
+}
+  
+main h1 {
+    font-size: 60px;
+}
+  
+main p {
+    font-size: 15px;
+    width: 18rem;
+    color: gray;
+}
+    
+main button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#text-side img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+#text-side p {
+    font-size: large;
+}
+  
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+}
